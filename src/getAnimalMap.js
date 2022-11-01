@@ -19,13 +19,4 @@ const getAnimalMap = (options) => ((!options || !options.includeNames)
 
 // console.log();
 
-const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
-const vezesDois = arr.reduce((acc, value) => {
-  // [...acc, num * 2]
-  acc.push(value * 2);
-  return acc;
-}, []);
-console.log(vezesDois);
-
 module.exports = getAnimalMap;
